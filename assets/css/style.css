@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 5px; 
-    padding: 5px;
+    margin: 0; 
+    padding: 0;
 }
 
 body{
@@ -9,21 +9,25 @@ body{
 }
 
 header{
-    padding: 20px;
+    padding: 20px 35px;
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    top: 0;
     background-size: cover;
-    background-position: 70%;
-   
+    background-attachment: fixed;
 }
 
 header h1{
     font-style: bolder;
-    margin: 10px;
+    margin: 0;
     font-size: 40px;
     color: aqua;
+}
+
+header nav {
+    margin: 7px 0;
 }
 
 header nav ul{
@@ -35,105 +39,117 @@ header nav ul{
 }
 
 header nav ul li a {
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 20px;
 }
 
 header nav ul li a:hover {
-    color: pink;
-    border-radius: 10px;
+    color: rgb(6, 0, 1);
+    border-radius: 15px;
 
 }
 
 footer {
-    padding:45px;
+    padding:40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: blueviolet;
-    font-size: 20px;
-    margin: 5px;
+    width: 100%;
 }
-
-section{
-    padding: 60px;
-}
-
-.badge{
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;  
-}
-
-.badge h2{
-    font-style: normal;
+   footer h2{
+    color: rgb(60, 16, 193);
     font-size: 30px;
-    color: #017d3f;
-    float: right;
-    background-color: #f20c00;
-}
-
-.section {
-    background-color: #518697;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section-title {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 40px;
-    color: #3a032d;
     margin: 0;
-    padding-right: 10px;
-    width: 500px;
-    border-right: #3a002f ;
-}
+ }
 
-.section-title2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 40px;
-    color: #11ff00;
-    margin: 0 ;
-    padding-right: 10px;
-    width: 500px;
+
+
+
+.snow{
+    background-image: url('https://img.freepik.com/free-vector/unfocussed-winter-background-with-snowflakes_1393-271.jpg?w=2000');
+    background-size: cover;
+    background-position: center;  
     height: 1250px;
 }
 
-.personal-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    width: 500px;
-}
 
-.personal-info2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    width: 500px;
-    border-left: #d06b6b;
-}
-
-.section p, .section a {
-    line-height: 50px;
-    color: #ffffff;
-    width: 500px;
-    margin: 0 auto;
+.personal-info2 p {
+    background-color: rgb(48, 149, 250);
+    width: 90%;
+    position: center;
+    line-height: 100px;
+    color: #000000;
     font-size: 30px;
     text-align: center;
-    padding: 0 15px 0 15px;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    
 }
+
+
+
+
+
+
+.box1{
+    background-image:url(/assets/Images/2iV0HB.webp);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.box2{
+    background-image: url(/assets/Images/download\ \(1\).jfif);
+    background-size: cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+.box3{
+    background-image: url(/assets/Images/1327455.jpg);
+    background-size:  cover;
+    width: 25%;
+    height: 300px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
 
 
 
