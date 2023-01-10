@@ -1,158 +1,130 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0; 
     padding: 0;
-}
-
-body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-header{
-    padding: 20px 35px;
-    background-color: blanchedalmond;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-header h1{
-    font-style: bolder;
     margin: 0;
-    font-size: 40px;
-    color: aqua;
 }
 
-header nav {
-    margin: 7px 0;
+body {
+    background-color: #d9dcd6;
 }
 
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
-header nav ul li a {
-    padding: 10px 15px;
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div ul {
+    list-style-type: none;
+    margin-left: 1050px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.snow {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://img.freepik.com/free-vector/unfocussed-winter-background-with-snowflakes_1393-271.jpg?w=2000");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.personal-info2 {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.box1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box2 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box3 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.box1 img {
+    max-height: 200px;
+}
+
+.box2 img {
+    max-height: 200px;
+}
+
+.box3 img {
+    max-height: 200px;
+}
+
+.box1 p {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.box2 p {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.box3 p {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
     font-size: 20px;
 }
-
-header nav ul li a:hover {
-    color: rgb(6, 0, 1);
-    border-radius: 15px;
-
-}
-
-footer {
-    padding:40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-   footer h2{
-    color: rgb(60, 16, 193);
-    font-size: 30px;
-    margin: 0;
- }
-
-
-
-
-.snow{
-    background-image: url('https://img.freepik.com/free-vector/unfocussed-winter-background-with-snowflakes_1393-271.jpg?w=2000');
-    background-size: cover;
-    background-position: center;  
-    height: 1250px;
-}
-
-
-.personal-info2 p {
-    background-color: rgb(48, 149, 250);
-    width: 90%;
-    position: center;
-    line-height: 100px;
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    display: flex;
-    
-}
-
-
-
-
-
-
-.box1{
-    background-image:url(/assets/Images/2iV0HB.webp);
-    background-size: cover;
-    width: 25%;
-    height: 300px;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    flex-direction: row;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
-
-
-.box2{
-    background-image: url(/assets/Images/download\ \(1\).jfif);
-    background-size: cover;
-    width: 25%;
-    height: 300px;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
-
-.box3{
-    background-image: url(/assets/Images/1327455.jpg);
-    background-size:  cover;
-    width: 25%;
-    height: 300px;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto 0 auto;
-    flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
